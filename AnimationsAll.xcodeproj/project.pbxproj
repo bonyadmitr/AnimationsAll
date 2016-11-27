@@ -24,6 +24,8 @@
 		7B82F69B1DEAFB1500911327 /* Appearing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B82F6991DEAFB1500911327 /* Appearing.storyboard */; };
 		7B82F69E1DEAFB3200911327 /* AppearingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82F69D1DEAFB3200911327 /* AppearingController.swift */; };
 		7BA946F51DEB003000A51135 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA946F41DEB003000A51135 /* TableViewController.swift */; };
+		7BA946F91DEB082D00A51135 /* AppearingTableViewCellsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA946F81DEB082D00A51135 /* AppearingTableViewCellsController.swift */; };
+		7BA946FC1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA946FA1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		7B82F69A1DEAFB1500911327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Appearing.storyboard; sourceTree = "<group>"; };
 		7B82F69D1DEAFB3200911327 /* AppearingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearingController.swift; sourceTree = "<group>"; };
 		7BA946F41DEB003000A51135 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7BA946F81DEB082D00A51135 /* AppearingTableViewCellsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearingTableViewCellsController.swift; sourceTree = "<group>"; };
+		7BA946FB1DEB08A300A51135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AppearingTableViewCellsController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 			children = (
 				7B0D06691DEA45C100FE8B8A /* Main.storyboard */,
 				7BA946F41DEB003000A51135 /* TableViewController.swift */,
+				7BA946FD1DEB08B100A51135 /* AppearingTableViewCellsController */,
 				7B82F69C1DEAFB2600911327 /* Appearing */,
 				7B82F6961DEAEF6C00911327 /* PopUpFromMin */,
 				7B82F6901DEAEE0B00911327 /* PopUp */,
@@ -193,6 +198,15 @@
 				7B82F69D1DEAFB3200911327 /* AppearingController.swift */,
 			);
 			name = Appearing;
+			sourceTree = "<group>";
+		};
+		7BA946FD1DEB08B100A51135 /* AppearingTableViewCellsController */ = {
+			isa = PBXGroup;
+			children = (
+				7BA946FA1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard */,
+				7BA946F81DEB082D00A51135 /* AppearingTableViewCellsController.swift */,
+			);
+			name = AppearingTableViewCellsController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +323,7 @@
 				7B82F68B1DEAED8600911327 /* PopUpByCustomClass.storyboard in Resources */,
 				7B0D06701DEA45C100FE8B8A /* LaunchScreen.storyboard in Resources */,
 				7B0D066D1DEA45C100FE8B8A /* Assets.xcassets in Resources */,
+				7BA946FC1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard in Resources */,
 				7B82F6931DEAEECF00911327 /* PopUpFromMin.storyboard in Resources */,
 				7B0D066B1DEA45C100FE8B8A /* Main.storyboard in Resources */,
 				7B82F69B1DEAFB1500911327 /* Appearing.storyboard in Resources */,
@@ -338,6 +353,7 @@
 			files = (
 				7B82F6871DEAE2EB00911327 /* PopUpView.swift in Sources */,
 				7B0D06961DEA49C000FE8B8A /* PopUpController.swift in Sources */,
+				7BA946F91DEB082D00A51135 /* AppearingTableViewCellsController.swift in Sources */,
 				7B82F69E1DEAFB3200911327 /* AppearingController.swift in Sources */,
 				7BA946F51DEB003000A51135 /* TableViewController.swift in Sources */,
 				7B82F6951DEAEEF100911327 /* PopUpFromMinController.swift in Sources */,
@@ -409,6 +425,14 @@
 				7B82F69A1DEAFB1500911327 /* Base */,
 			);
 			name = Appearing.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA946FA1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA946FB1DEB08A300A51135 /* Base */,
+			);
+			name = AppearingTableViewCellsController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
