@@ -32,7 +32,7 @@ class AppearingTableViewCellsController: UITableViewController {
     func animate(cell: UITableViewCell, startYPosition: CGFloat, delay: Double) {
         cell.transform = CGAffineTransform(translationX: 0, y: startYPosition)
         
-        UIView.animate(withDuration: 1, delay: delay,
+        UIView.animate(withDuration: 2, delay: delay,
                        usingSpringWithDamping: 0.8, initialSpringVelocity: 0,
                        options: [.curveEaseInOut, .allowUserInteraction],
                        animations: {
