@@ -28,6 +28,7 @@
 		7BA946FC1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA946FA1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard */; };
 		7BA946FF1DEB640900A51135 /* MotionEffectController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA946FE1DEB640900A51135 /* MotionEffectController.storyboard */; };
 		7BA947011DEB641800A51135 /* MotionEffectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA947001DEB641800A51135 /* MotionEffectController.swift */; };
+		7BA947221DEC7E1E00A51135 /* DynamicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA947211DEC7E1E00A51135 /* DynamicController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		7BA946FB1DEB08A300A51135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AppearingTableViewCellsController.storyboard; sourceTree = "<group>"; };
 		7BA946FE1DEB640900A51135 /* MotionEffectController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MotionEffectController.storyboard; sourceTree = "<group>"; };
 		7BA947001DEB641800A51135 /* MotionEffectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionEffectController.swift; sourceTree = "<group>"; };
+		7BA947211DEC7E1E00A51135 /* DynamicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				7B0D06691DEA45C100FE8B8A /* Main.storyboard */,
 				7BA946F41DEB003000A51135 /* TableViewController.swift */,
+				7BA947211DEC7E1E00A51135 /* DynamicController.swift */,
 				7BA947021DEB644200A51135 /* MotionEffect */,
 				7BA946FD1DEB08B100A51135 /* AppearingTableViewCellsController */,
 				7B82F69C1DEAFB2600911327 /* Appearing */,
@@ -375,6 +378,7 @@
 				7B82F6951DEAEEF100911327 /* PopUpFromMinController.swift in Sources */,
 				7B0D06661DEA45C100FE8B8A /* AppDelegate.swift in Sources */,
 				7B82F6981DEAF9D200911327 /* SomeRoundButton.swift in Sources */,
+				7BA947221DEC7E1E00A51135 /* DynamicController.swift in Sources */,
 				7B82F6891DEAE6B800911327 /* PopUpByCustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,6 +29,8 @@ class AppearingController: UIViewController {
         
 //        view.layoutIfNeeded()
         
+        //different frame for included views
+        
         savedFrame1 = button1.frame
         button1.frame = CGRect(x: -button1.frame.width, y: button1.frame.origin.y,
                                width: button1.frame.width, height: button1.frame.height)
