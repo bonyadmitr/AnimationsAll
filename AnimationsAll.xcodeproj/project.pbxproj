@@ -14,6 +14,7 @@
 		7B0D067B1DEA45C100FE8B8A /* AnimationsAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D067A1DEA45C100FE8B8A /* AnimationsAllTests.swift */; };
 		7B0D06861DEA45C100FE8B8A /* AnimationsAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D06851DEA45C100FE8B8A /* AnimationsAllUITests.swift */; };
 		7B0D06961DEA49C000FE8B8A /* PopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D06951DEA49C000FE8B8A /* PopUpController.swift */; };
+		7B166B811DED4741006AB5A7 /* Dynamic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B166B7F1DED4741006AB5A7 /* Dynamic.storyboard */; };
 		7B82F6871DEAE2EB00911327 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82F6861DEAE2EB00911327 /* PopUpView.swift */; };
 		7B82F6891DEAE6B800911327 /* PopUpByCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82F6881DEAE6B800911327 /* PopUpByCustomViewController.swift */; };
 		7B82F68B1DEAED8600911327 /* PopUpByCustomClass.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B82F68A1DEAED8600911327 /* PopUpByCustomClass.storyboard */; };
@@ -62,6 +63,7 @@
 		7B0D06851DEA45C100FE8B8A /* AnimationsAllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAllUITests.swift; sourceTree = "<group>"; };
 		7B0D06871DEA45C100FE8B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B0D06951DEA49C000FE8B8A /* PopUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpController.swift; sourceTree = "<group>"; };
+		7B166B801DED4741006AB5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dynamic.storyboard; sourceTree = "<group>"; };
 		7B82F6861DEAE2EB00911327 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		7B82F6881DEAE6B800911327 /* PopUpByCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpByCustomViewController.swift; sourceTree = "<group>"; };
 		7B82F68A1DEAED8600911327 /* PopUpByCustomClass.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUpByCustomClass.storyboard; sourceTree = "<group>"; };
@@ -129,7 +131,7 @@
 			children = (
 				7B0D06691DEA45C100FE8B8A /* Main.storyboard */,
 				7BA946F41DEB003000A51135 /* TableViewController.swift */,
-				7BA947211DEC7E1E00A51135 /* DynamicController.swift */,
+				7B166B821DED474E006AB5A7 /* Dynamic */,
 				7BA947021DEB644200A51135 /* MotionEffect */,
 				7BA946FD1DEB08B100A51135 /* AppearingTableViewCellsController */,
 				7B82F69C1DEAFB2600911327 /* Appearing */,
@@ -157,6 +159,15 @@
 				7B0D06871DEA45C100FE8B8A /* Info.plist */,
 			);
 			path = AnimationsAllUITests;
+			sourceTree = "<group>";
+		};
+		7B166B821DED474E006AB5A7 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				7B166B7F1DED4741006AB5A7 /* Dynamic.storyboard */,
+				7BA947211DEC7E1E00A51135 /* DynamicController.swift */,
+			);
+			name = Dynamic;
 			sourceTree = "<group>";
 		};
 		7B82F68C1DEAEDA500911327 /* PopUpByCustomClass */ = {
@@ -342,6 +353,7 @@
 				7B0D06701DEA45C100FE8B8A /* LaunchScreen.storyboard in Resources */,
 				7B0D066D1DEA45C100FE8B8A /* Assets.xcassets in Resources */,
 				7BA946FC1DEB08A300A51135 /* AppearingTableViewCellsController.storyboard in Resources */,
+				7B166B811DED4741006AB5A7 /* Dynamic.storyboard in Resources */,
 				7B82F6931DEAEECF00911327 /* PopUpFromMin.storyboard in Resources */,
 				7B0D066B1DEA45C100FE8B8A /* Main.storyboard in Resources */,
 				7B82F69B1DEAFB1500911327 /* Appearing.storyboard in Resources */,
@@ -429,6 +441,14 @@
 				7B0D066F1DEA45C100FE8B8A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7B166B7F1DED4741006AB5A7 /* Dynamic.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B166B801DED4741006AB5A7 /* Base */,
+			);
+			name = Dynamic.storyboard;
 			sourceTree = "<group>";
 		};
 		7B82F68D1DEAEDED00911327 /* PopUp.storyboard */ = {

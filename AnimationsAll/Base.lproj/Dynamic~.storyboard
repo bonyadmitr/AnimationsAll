@@ -156,7 +156,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="B4i-Qb-XtL" kind="show" id="tgg-5D-Y9u"/>
+                                            <segue destination="0EX-tJ-Ef3" kind="show" id="tgg-5D-Y9u"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -238,10 +238,43 @@
             <point key="canvasLocation" x="813" y="878"/>
         </scene>
         <!--Dynamic-->
-        <scene sceneID="Aqv-GJ-1dI">
+        <scene sceneID="Eg8-jn-CAw">
             <objects>
-                <viewControllerPlaceholder storyboardName="Dynamic" id="B4i-Qb-XtL" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4m5-EE-kkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="0EX-tJ-Ef3" customClass="DynamicController" customModule="AnimationsAll" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kvC-0a-P9x"/>
+                        <viewControllerLayoutGuide type="bottom" id="nji-Ug-eQ9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UYO-40-DrL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPC-c3-7Tr" customClass="SomeRoundButton" customModule="AnimationsAll" customModuleProvider="target">
+                                <rect key="frame" x="100" y="193" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="9KX-UZ-hyl"/>
+                                    <constraint firstAttribute="height" constant="30" id="LZt-oT-COq"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="actionStartButton:" destination="0EX-tJ-Ef3" eventType="touchUpInside" id="qxA-y7-RmM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mPC-c3-7Tr" firstAttribute="centerX" secondItem="UYO-40-DrL" secondAttribute="centerX" id="55c-kk-xZq"/>
+                            <constraint firstItem="mPC-c3-7Tr" firstAttribute="centerY" secondItem="UYO-40-DrL" secondAttribute="centerY" id="iB7-oN-Ysc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dynamic" id="GPK-hm-hpd"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="startButton" destination="mPC-c3-7Tr" id="KO2-gg-vOk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYx-zq-PK4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953" y="1278"/>
         </scene>

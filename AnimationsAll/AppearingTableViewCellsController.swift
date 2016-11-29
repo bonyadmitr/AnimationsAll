@@ -17,6 +17,7 @@ class AppearingTableViewCellsController: UITableViewController {
     
     // MARK: - Animation
     
+    var currentMaxDisplayedCell = -1
     let animationDelay = 0.05
     
     func animateTableView() {
@@ -53,6 +54,9 @@ class AppearingTableViewCellsController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        animate(cell: cell, startYPosition: tableView.bounds.height, delay: animationDelay)
+        if currentMaxDisplayedCell < indexPath.row {
+            animate(cell: cell, startYPosition: tableView.bounds.height, delay: animationDelay)
+            currentMaxDisplayedCell = indexPath.row
+        }
     }
 }
