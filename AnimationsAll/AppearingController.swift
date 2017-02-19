@@ -27,6 +27,9 @@ class AppearingController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        _ = UIEdgeInsets(top: 10, left: 1, bottom: 10, right: 1)
+        
 //        view.layoutIfNeeded()
         
         //different frame for included views

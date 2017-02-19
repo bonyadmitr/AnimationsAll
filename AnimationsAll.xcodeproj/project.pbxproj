@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66559D0E1E3B89F80015C913 /* ModalCustomPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66559D0D1E3B89F80015C913 /* ModalCustomPresentController.swift */; };
 		7B0D06661DEA45C100FE8B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D06651DEA45C100FE8B8A /* AppDelegate.swift */; };
 		7B0D066B1DEA45C100FE8B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D06691DEA45C100FE8B8A /* Main.storyboard */; };
 		7B0D066D1DEA45C100FE8B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D066C1DEA45C100FE8B8A /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66559D0D1E3B89F80015C913 /* ModalCustomPresentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalCustomPresentController.swift; sourceTree = "<group>"; };
 		7B0D06621DEA45C100FE8B8A /* AnimationsAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0D06651DEA45C100FE8B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B0D066A1DEA45C100FE8B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				7B0D06691DEA45C100FE8B8A /* Main.storyboard */,
 				7BA946F41DEB003000A51135 /* TableViewController.swift */,
+				66559D0D1E3B89F80015C913 /* ModalCustomPresentController.swift */,
 				7B166B821DED474E006AB5A7 /* Dynamic */,
 				7BA947021DEB644200A51135 /* MotionEffect */,
 				7BA946FD1DEB08B100A51135 /* AppearingTableViewCellsController */,
@@ -391,6 +394,7 @@
 				7B0D06661DEA45C100FE8B8A /* AppDelegate.swift in Sources */,
 				7B82F6981DEAF9D200911327 /* SomeRoundButton.swift in Sources */,
 				7BA947221DEC7E1E00A51135 /* DynamicController.swift in Sources */,
+				66559D0E1E3B89F80015C913 /* ModalCustomPresentController.swift in Sources */,
 				7B82F6891DEAE6B800911327 /* PopUpByCustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +586,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bonya.AnimationsAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
@@ -596,6 +601,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bonya.AnimationsAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
